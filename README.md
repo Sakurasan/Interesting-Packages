@@ -19,6 +19,11 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 - [go-money](https://github.com/Rhymond/go-money): Go implementation of Fowler's Money pattern
 
+### Web Crawling
+
+- [Creeper](https://github.com/wspl/creeper): The Next Generation Crawler Framework
+- [scrape](https://github.com/yhat/scrape): A simple, higher level interface for Go web scraping
+
 ### Variable
 
 - [deep](https://github.com/go-test/deep): Deep Variable Equality for Humans
