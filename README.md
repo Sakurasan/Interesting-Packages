@@ -13,7 +13,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 ### Time
 
-- [clock](https://github.com/benbjohnson/clock): 
+- [clock](https://github.com/benbjohnson/clock): Clock is a small library for mocking time in Go
 
 ### Finance
 
