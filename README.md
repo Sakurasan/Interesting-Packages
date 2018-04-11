@@ -20,8 +20,10 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 ### Authentication
 
+- [Authboss](https://github.com/volatiletech/authboss): The boss of http auth
 - [dex](https://github.com/coreos/dex): A federated OpenID Connect provider
 - [hydra](https://github.com/ory/hydra): A hardened OAuth2 and OpenID Connect server optimized for low-latency, high throughput, and low resource consumption
+- [osin](https://github.com/RangelReale/osin): Golang OAuth2 server library
 
 ### Browser
 
@@ -48,7 +50,12 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 ### Goroutine
 
-- [GoTrace](https://github.com/divan/gotrace): Concurrency tracer and visualizer for G
+- [GoTrace](https://github.com/divan/gotrace): Concurrency tracer and visualizer for Go
+
+### GUI
+
+- [app](https://github.com/murlokswarm/app): Package to build MacOS and Web apps using Go, HTML and CSS
+- [Gallium](https://github.com/alexflint/gallium): Build desktop applications in Go and HTML
 
 ### JSON
 
@@ -87,6 +94,9 @@ A go package for Windows 10 toast notifications
 ### Terminal
 
 - [dilemma](https://github.com/robbiev/dilemma): TTY selection prompt for Go programs
+- [GOCUI](https://github.com/jroimartin/gocui): Minimalist Go package aimed at creating Console User Interfaces
+- [ishell](https://github.com/abiosoft/ishell): Library for creating interactive cli applications
+- [treeprint](https://github.com/xlab/treeprint): Package treeprint provides a simple ASCII tree composing tool
 - [uiprogress](https://github.com/gosuri/uiprogress): A go library to render progress bars in terminal applications
 
 ### Testing
@@ -102,6 +112,9 @@ A go package for Windows 10 toast notifications
 
 ### Tool
 
+- [GAS](https://github.com/GoASTScanner/gas): 
+Inspects source code for security problems by scanning the Go AST
+- [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
 - [go-tools](https://github.com/dominikh/go-tools): A collection of tools and libraries for working with Go code
 
 ### Variable
