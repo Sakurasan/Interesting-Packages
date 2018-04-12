@@ -56,6 +56,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 - [app](https://github.com/murlokswarm/app): Package to build MacOS and Web apps using Go, HTML and CSS
 - [Gallium](https://github.com/alexflint/gallium): Build desktop applications in Go and HTML
+- [qt](https://github.com/therecipe/qt): Qt binding for Go
 
 ### JSON
 
@@ -70,6 +71,10 @@ A go package for Windows 10 toast notifications
 
 - [go-money](https://github.com/Rhymond/go-money): Go implementation of Fowler's Money pattern
 - [Go Bytesize](https://github.com/zpatrick/go-bytesize): Utility package for working with common memory and cpu units in Go
+
+### Other
+
+- [ulid](https://github.com/oklog/ulid): Universally Unique Lexicographically Sortable Identifier
 
 ### PDF
 
@@ -115,6 +120,8 @@ A go package for Windows 10 toast notifications
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
 - [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
+- [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter): A Golang tool that does static analysis, unit testing, code review and generate code quality report
+- [gops](https://github.com/google/gops): A tool to list and diagnose Go processes currently running on your system
 - [go-tools](https://github.com/dominikh/go-tools): A collection of tools and libraries for working with Go code
 
 ### Variable
