@@ -43,6 +43,10 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 - [errors](https://github.com/pkg/errors): Simple error handling primitives
 - [Retro](https://github.com/codeship/go-retro): Retryable errors in Golang
 
+### File System
+
+- [Afero](https://github.com/spf13/afero): A FileSystem Abstraction System for Go
+
 ### Git
 
 - [gitbase](https://github.com/src-d/gitbase): SQL interface to Git repositories
@@ -109,6 +113,7 @@ A go package for Windows 10 toast notifications
 - [dummyorigin](https://github.com/turbobytes/dummyorigin): Mock origin to test proxy behaviour
 - [go-fuzz](https://github.com/dvyukov/go-fuzz): Randomized testing for Go
 - [gock](https://github.com/h2non/gock): Simple and expressive HTTP traffic mocking and expectations made easy
+- [testify](https://github.com/stretchr/testify): A toolkit with common assertions and mocks that plays nicely with the standard library
 - [wstest](https://github.com/posener/wstest): Go websocket client for unit testing of a websocket handler
 
 ### Time
@@ -117,6 +122,7 @@ A go package for Windows 10 toast notifications
 
 ### Tool
 
+- [DepsCheck](https://github.com/divan/depscheck): Dependency checker for Golang (Go) packages
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
 - [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
@@ -130,6 +136,7 @@ Inspects source code for security problems by scanning the Go AST
 
 ### Web
 
+- [go-server-timing](https://github.com/mitchellh/go-server-timing): Go library for creating and consuming HTTP Server-Timing headers
 - [minify](https://github.com/tdewolff/minify): Go minifiers for web formats
 
 #### Crawling
