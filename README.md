@@ -41,6 +41,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Error Handling
 
 - [errors](https://github.com/pkg/errors): Simple error handling primitives
+- [grace](https://github.com/oxequa/grace): Handle Go recover, panic, and errors in a graceful way
 - [Retro](https://github.com/codeship/go-retro): Retryable errors in Golang
 
 ### File System
@@ -62,9 +63,18 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 - [Gallium](https://github.com/alexflint/gallium): Build desktop applications in Go and HTML
 - [qt](https://github.com/therecipe/qt): Qt binding for Go
 
+### Image
+
+- [bild](https://github.com/anthonynsimon/bild): A collection of parallel image processing algorithms in pure Go
+
 ### JSON
 
 - [gron](https://github.com/tomnomnom/gron): Make JSON greppable!
+
+### Logging
+
+- [zap](https://github.com/uber-go/zap): Blazing fast, structured, leveled logging in Go
+- [zerolog](https://github.com/rs/zerolog): Zero Allocation JSON Logger
 
 ### Notification
 
@@ -78,6 +88,8 @@ A go package for Windows 10 toast notifications
 
 ### Other
 
+- [cri](https://github.com/SKatiyar/cri): Type safe go bindings to interact with chrome remote interface
+- [machineid](https://github.com/denisbrodbeck/machineid): Get the unique machine id of any host
 - [ulid](https://github.com/oklog/ulid): Universally Unique Lexicographically Sortable Identifier
 
 ### PDF
@@ -125,24 +137,29 @@ A go package for Windows 10 toast notifications
 - [DepsCheck](https://github.com/divan/depscheck): Dependency checker for Golang (Go) packages
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
+- [GoQL](https://github.com/fzerorubigd/goql): A query language, over Go code
 - [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
 - [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter): A Golang tool that does static analysis, unit testing, code review and generate code quality report
 - [gops](https://github.com/google/gops): A tool to list and diagnose Go processes currently running on your system
+- [go-callvis](https://github.com/TrueFurby/go-callvis): Visualize call graph of your Go program using dot format
 - [go-tools](https://github.com/dominikh/go-tools): A collection of tools and libraries for working with Go code
 
 ### Variable
 
 - [deep](https://github.com/go-test/deep): Deep Variable Equality for Humans
+- [pointerstructure](https://github.com/mitchellh/pointerstructure): Go library for addressing and reading/writing a specific value within any Go structure using a string syntax
 
 ### Web
 
 - [go-server-timing](https://github.com/mitchellh/go-server-timing): Go library for creating and consuming HTTP Server-Timing headers
+- [Heimdall](https://github.com/gojektech/heimdall): An enhanced HTTP client for Go
 - [minify](https://github.com/tdewolff/minify): Go minifiers for web formats
 
 #### Crawling
 
 - [Creeper](https://github.com/wspl/creeper): The Next Generation Crawler Framework
 - [scrape](https://github.com/yhat/scrape): A simple, higher level interface for Go web scraping
+- [soup](https://github.com/anaskhan96/soup): Web Scraper in Go, similar to BeautifulSoup
 
 ## Monitoring
 
