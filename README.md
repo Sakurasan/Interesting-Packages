@@ -38,6 +38,10 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 - [go-poet](https://github.com/dpolansky/go-poet): A Go package for generating Go code
 
+### Datetime
+
+- [dateparse](https://github.com/araddon/dateparse): Parse many date strings without knowing format in advance
+
 ### Error Handling
 
 - [errors](https://github.com/pkg/errors): Simple error handling primitives
@@ -66,6 +70,10 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Image
 
 - [bild](https://github.com/anthonynsimon/bild): A collection of parallel image processing algorithms in pure Go
+
+### Job Queue
+
+- [gocraft/work](https://github.com/gocraft/work): Process background jobs in Go
 
 ### JSON
 
@@ -131,18 +139,22 @@ A go package for Windows 10 toast notifications
 ### Time
 
 - [clock](https://github.com/benbjohnson/clock): Clock is a small library for mocking time in Go
+- [now](https://github.com/jinzhu/now): A time toolkit for golang
 
 ### Tool
 
+- [cfmt](https://github.com/alexkohler/cfmt): A tool to wrap Go comments over a certain length to a new line
 - [DepsCheck](https://github.com/divan/depscheck): Dependency checker for Golang (Go) packages
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
+- [GoAppMonitor](https://github.com/wgliang/goappmonitor): Golang application performance data monitoring
 - [GoQL](https://github.com/fzerorubigd/goql): A query language, over Go code
 - [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
 - [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter): A Golang tool that does static analysis, unit testing, code review and generate code quality report
 - [gops](https://github.com/google/gops): A tool to list and diagnose Go processes currently running on your system
 - [go-callvis](https://github.com/TrueFurby/go-callvis): Visualize call graph of your Go program using dot format
 - [go-tools](https://github.com/dominikh/go-tools): A collection of tools and libraries for working with Go code
+- [memviz](https://github.com/bradleyjkemp/memviz): Visualize your data structures using graphviz
 
 ### Variable
 
