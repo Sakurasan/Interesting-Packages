@@ -60,6 +60,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Goroutine
 
 - [GoTrace](https://github.com/divan/gotrace): Concurrency tracer and visualizer for Go
+- [grmon](https://github.com/bcicen/grmon): Command line monitoring for goroutines
 
 ### GUI
 
@@ -77,12 +78,21 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 ### JSON
 
+- [GJSON](https://github.com/tidwall/gjson): Get JSON values quickly
 - [gron](https://github.com/tomnomnom/gron): Make JSON greppable!
 
 ### Logging
 
 - [zap](https://github.com/uber-go/zap): Blazing fast, structured, leveled logging in Go
 - [zerolog](https://github.com/rs/zerolog): Zero Allocation JSON Logger
+
+### Machine Learning
+
+- [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
+
+### Mobile
+
+- [Matcha](https://github.com/gomatcha/matcha): Build native mobile apps in Go
 
 ### Notification
 
@@ -93,9 +103,11 @@ A go package for Windows 10 toast notifications
 
 - [go-money](https://github.com/Rhymond/go-money): Go implementation of Fowler's Money pattern
 - [Go Bytesize](https://github.com/zpatrick/go-bytesize): Utility package for working with common memory and cpu units in Go
+- [Stats](https://github.com/montanaflynn/stats): A statistics package with common functions that are missing from the Golang standard library
 
 ### Other
 
+- [circuitbreaker](https://github.com/rubyist/circuitbreaker): Circuit Breakers in Go
 - [cri](https://github.com/SKatiyar/cri): Type safe go bindings to interact with chrome remote interface
 - [machineid](https://github.com/denisbrodbeck/machineid): Get the unique machine id of any host
 - [ulid](https://github.com/oklog/ulid): Universally Unique Lexicographically Sortable Identifier
@@ -111,6 +123,7 @@ A go package for Windows 10 toast notifications
 ### Pub/Sub
 
 - [Emitter](https://github.com/olebedev/emitter): Emits events in Go way, with wildcard, predicates, cancellation possibilities
+- [wsify](https://github.com/alash3al/wsify): Just a tiny, simple and real-time self-hosted pub/sub messaging service
 
 ### Random Data
 
@@ -166,6 +179,7 @@ Inspects source code for security problems by scanning the Go AST
 - [go-server-timing](https://github.com/mitchellh/go-server-timing): Go library for creating and consuming HTTP Server-Timing headers
 - [Heimdall](https://github.com/gojektech/heimdall): An enhanced HTTP client for Go
 - [minify](https://github.com/tdewolff/minify): Go minifiers for web formats
+- [Skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition
 
 #### Crawling
 
