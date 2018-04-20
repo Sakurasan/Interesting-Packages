@@ -18,6 +18,10 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 - [zip](https://github.com/alexmullins/zip): Fork of Go's archive/zip to add reading/writing of password protected zip files
 
+### Audio/Video
+
+- [joy4](https://github.com/nareix/joy4): Golang audio/video library and streaming server
+
 ### Authentication/Authorization
 
 - [Authboss](https://github.com/volatiletech/authboss): The boss of http auth
@@ -25,6 +29,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 - [dex](https://github.com/coreos/dex): A federated OpenID Connect provider
 - [fosite](https://github.com/ory/fosite): Extensible security first OAuth 2.0 and OpenID Connect SDK for Go
 - [hydra](https://github.com/ory/hydra): A hardened OAuth2 and OpenID Connect server optimized for low-latency, high throughput, and low resource consumption
+- [loginsrv](https://github.com/tarent/loginsrv): JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..
 - [osin](https://github.com/RangelReale/osin): Golang OAuth2 server library
 
 ### Browser
@@ -43,10 +48,18 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Channel
 
 - [distchan](https://github.com/dradtke/distchan): Distributed Go channels
+- [vice](https://github.com/matryer/vice): Go channels at horizontal scale
 
 ### Data Structure
 
 - [hamt](https://github.com/raviqqe/hamt): Immutable and Memory Efficient Maps and Sets in Go
+
+### Database
+
+- [badger](https://github.com/dgraph-io/badger): Fast key-value DB in Go
+- [Bolt](https://github.com/boltdb/bolt): An embedded key/value database for Go
+- [dqlite](https://github.com/CanonicalLtd/dqlite): Distributed SQLite for Go applications
+- [moss](https://github.com/couchbase/moss): a simple, fast, ordered, persistable, key-val storage library for golang
 
 ### Datetime
 
@@ -81,6 +94,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Image
 
 - [bild](https://github.com/anthonynsimon/bild): A collection of parallel image processing algorithms in pure Go
+- [smartcrop](https://github.com/muesli/smartcrop): finds good image crops for arbitrary crop sizes
 
 ### Job Queue
 
@@ -107,11 +121,14 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Networking
 
 - [evio](https://github.com/tidwall/evio): Fast event-loop networking for Go
+- [go-imap-proxy](https://github.com/emersion/go-imap-proxy): A backend that proxies all commands and responses to another IMAP server
 - [go-server-timing](https://github.com/mitchellh/go-server-timing): Go library for creating and consuming HTTP Server-Timing headers
 - [gotalk](https://github.com/rsms/gotalk): Async peer communication protocol & library
 - [Heimdall](https://github.com/gojektech/heimdall): An enhanced HTTP client for Go
 - [httpcache](https://github.com/gregjones/httpcache): A Transport for http.Client that will cache responses according to the HTTP RFC
+- [httpstat](https://github.com/apex/httpstat): Higher level HTTP tracing for Go
 - [Skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition
+- [slt](https://github.com/inconshreveable/slt): A TLS reverse proxy with SNI multiplexing in Go
 
 ### Notification
 
@@ -137,6 +154,10 @@ A go package for Windows 10 toast notifications
 
 - [gopdf](https://github.com/signintech/gopdf): A simple library for generating PDF document written in Go
 
+### Plugin
+
+- [go-plugin](https://github.com/hashicorp/go-plugin): Golang plugin system over RPC
+
 ### Profiling
 
 - [go-torch](https://github.com/uber/go-torch): Stochastic flame graph profiler for Go programs
@@ -148,6 +169,7 @@ A go package for Windows 10 toast notifications
 
 ### Random Data
 
+- [kolpa](https://github.com/malisit/kolpa): A fake data generator written in and for Go
 - [moldova](https://github.com/StabbyCutyou/moldova): A lightweight templating system for generating random data
 
 ### Regular Expressions
@@ -185,6 +207,7 @@ A go package for Windows 10 toast notifications
 ### Tool
 
 - [cfmt](https://github.com/alexkohler/cfmt): A tool to wrap Go comments over a certain length to a new line
+- [complete](https://github.com/posener/complete): bash completion written in go + bash completion for go command
 - [DepsCheck](https://github.com/divan/depscheck): Dependency checker for Golang (Go) packages
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
@@ -207,10 +230,13 @@ Inspects source code for security problems by scanning the Go AST
 
 ### Visualization
 
+- [chart](https://github.com/marianogappa/chart): Quick & smart charting for STDIN
+- [go-chart](https://github.com/wcharczuk/go-chart): a basic charting library in native golang
 - [Plot](https://github.com/gonum/plot): A repository for plotting and visualizing data
 
 ### Web
 
+- [go-css](https://github.com/napsy/go-css): A very simple CSS parser
 - [gtfmt](https://github.com/gotpl/gtfmt): like gofmt except for go templates
 - [minify](https://github.com/tdewolff/minify): Go minifiers for web formats
 
@@ -226,6 +252,8 @@ Inspects source code for security problems by scanning the Go AST
 ### Prometheus
 
 - [Prometheus Operator](https://github.com/coreos/prometheus-operator): Creates/configures/manages Prometheus clusters atop Kubernetes
+- [promviz](https://github.com/nghialv/promviz): Visualize the traffic of your clusters in realtime from Prometheus data
+- [Thanos](https://github.com/improbable-eng/thanos): Highly available Prometheus setup with long term storage capabilities
 
 ## Reverse Proxy
 
