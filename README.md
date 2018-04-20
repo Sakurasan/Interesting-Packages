@@ -18,10 +18,12 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 - [zip](https://github.com/alexmullins/zip): Fork of Go's archive/zip to add reading/writing of password protected zip files
 
-### Authentication
+### Authentication/Authorization
 
 - [Authboss](https://github.com/volatiletech/authboss): The boss of http auth
+- [Casbin](https://github.com/casbin/casbin): An authorization library that supports access control models like ACL, RBAC, ABAC in Golang
 - [dex](https://github.com/coreos/dex): A federated OpenID Connect provider
+- [fosite](https://github.com/ory/fosite): Extensible security first OAuth 2.0 and OpenID Connect SDK for Go
 - [hydra](https://github.com/ory/hydra): A hardened OAuth2 and OpenID Connect server optimized for low-latency, high throughput, and low resource consumption
 - [osin](https://github.com/RangelReale/osin): Golang OAuth2 server library
 
@@ -37,6 +39,14 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Code Generation
 
 - [go-poet](https://github.com/dpolansky/go-poet): A Go package for generating Go code
+
+### Channel
+
+- [distchan](https://github.com/dradtke/distchan): Distributed Go channels
+
+### Data Structure
+
+- [hamt](https://github.com/raviqqe/hamt): Immutable and Memory Efficient Maps and Sets in Go
 
 ### Datetime
 
@@ -94,6 +104,15 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 - [Matcha](https://github.com/gomatcha/matcha): Build native mobile apps in Go
 
+### Networking
+
+- [evio](https://github.com/tidwall/evio): Fast event-loop networking for Go
+- [go-server-timing](https://github.com/mitchellh/go-server-timing): Go library for creating and consuming HTTP Server-Timing headers
+- [gotalk](https://github.com/rsms/gotalk): Async peer communication protocol & library
+- [Heimdall](https://github.com/gojektech/heimdall): An enhanced HTTP client for Go
+- [httpcache](https://github.com/gregjones/httpcache): A Transport for http.Client that will cache responses according to the HTTP RFC
+- [Skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition
+
 ### Notification
 
 - [Toast](https://github.com/go-toast/toast): 
@@ -109,7 +128,9 @@ A go package for Windows 10 toast notifications
 
 - [circuitbreaker](https://github.com/rubyist/circuitbreaker): Circuit Breakers in Go
 - [cri](https://github.com/SKatiyar/cri): Type safe go bindings to interact with chrome remote interface
+- [liche](https://github.com/raviqqe/liche): Fast Link Checker for Markdown and HTML in Go
 - [machineid](https://github.com/denisbrodbeck/machineid): Get the unique machine id of any host
+- [multistep](https://github.com/mitchellh/multistep): A Go library for building up complex actions using discrete steps
 - [ulid](https://github.com/oklog/ulid): Universally Unique Lexicographically Sortable Identifier
 
 ### PDF
@@ -133,18 +154,25 @@ A go package for Windows 10 toast notifications
 
 - [go-restructure](https://github.com/alexflint/go-restructure): Match regular expressions into struct fields
 
+### SQL
+
+- [xsql](https://github.com/shomali11/xsql): SQL Query Results Pretty Printing
+
 ### Terminal
 
 - [dilemma](https://github.com/robbiev/dilemma): TTY selection prompt for Go programs
 - [GOCUI](https://github.com/jroimartin/gocui): Minimalist Go package aimed at creating Console User Interfaces
 - [ishell](https://github.com/abiosoft/ishell): Library for creating interactive cli applications
+- [progressbar](https://github.com/schollz/progressbar): A really basic thread-safe progressbar for Golang applications
 - [treeprint](https://github.com/xlab/treeprint): Package treeprint provides a simple ASCII tree composing tool
+- [tui-go](https://github.com/marcusolsson/tui-go): A UI library for terminal applications
 - [uiprogress](https://github.com/gosuri/uiprogress): A go library to render progress bars in terminal applications
 
 ### Testing
 
 - [dummyorigin](https://github.com/turbobytes/dummyorigin): Mock origin to test proxy behaviour
 - [go-fuzz](https://github.com/dvyukov/go-fuzz): Randomized testing for Go
+- [GoBenchUI](https://github.com/divan/gobenchui): UI for overview of your package benchmarks progress
 - [gock](https://github.com/h2non/gock): Simple and expressive HTTP traffic mocking and expectations made easy
 - [testify](https://github.com/stretchr/testify): A toolkit with common assertions and mocks that plays nicely with the standard library
 - [wstest](https://github.com/posener/wstest): Go websocket client for unit testing of a websocket handler
@@ -161,6 +189,7 @@ A go package for Windows 10 toast notifications
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
 - [GoAppMonitor](https://github.com/wgliang/goappmonitor): Golang application performance data monitoring
+- [gobfuscate](https://github.com/unixpickle/gobfuscate): Obfuscate Go binaries and packages
 - [GoQL](https://github.com/fzerorubigd/goql): A query language, over Go code
 - [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
 - [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter): A Golang tool that does static analysis, unit testing, code review and generate code quality report
@@ -168,21 +197,26 @@ Inspects source code for security problems by scanning the Go AST
 - [go-callvis](https://github.com/TrueFurby/go-callvis): Visualize call graph of your Go program using dot format
 - [go-tools](https://github.com/dominikh/go-tools): A collection of tools and libraries for working with Go code
 - [memviz](https://github.com/bradleyjkemp/memviz): Visualize your data structures using graphviz
+- [prealloc](https://github.com/alexkohler/prealloc): A Go static analysis tool to find slice declarations that could potentially be preallocated
 
 ### Variable
 
 - [deep](https://github.com/go-test/deep): Deep Variable Equality for Humans
 - [pointerstructure](https://github.com/mitchellh/pointerstructure): Go library for addressing and reading/writing a specific value within any Go structure using a string syntax
+- [mergo](https://github.com/imdario/mergo): merging Go structs and maps
+
+### Visualization
+
+- [Plot](https://github.com/gonum/plot): A repository for plotting and visualizing data
 
 ### Web
 
-- [go-server-timing](https://github.com/mitchellh/go-server-timing): Go library for creating and consuming HTTP Server-Timing headers
-- [Heimdall](https://github.com/gojektech/heimdall): An enhanced HTTP client for Go
+- [gtfmt](https://github.com/gotpl/gtfmt): like gofmt except for go templates
 - [minify](https://github.com/tdewolff/minify): Go minifiers for web formats
-- [Skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition
 
 #### Crawling
 
+- [Colly](https://github.com/gocolly/colly): Elegant Scraper and Crawler Framework for Golang
 - [Creeper](https://github.com/wspl/creeper): The Next Generation Crawler Framework
 - [scrape](https://github.com/yhat/scrape): A simple, higher level interface for Go web scraping
 - [soup](https://github.com/anaskhan96/soup): Web Scraper in Go, similar to BeautifulSoup
