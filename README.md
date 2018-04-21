@@ -52,6 +52,7 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 
 ### Data Structure
 
+- [consistent](https://github.com/lafikl/consistent): A Go library that implements Consistent Hashing and Consistent Hashing With Bounded Loads
 - [hamt](https://github.com/raviqqe/hamt): Immutable and Memory Efficient Maps and Sets in Go
 
 ### Database
@@ -64,6 +65,10 @@ THIS IS NOT A COLLECTION OF EVERYTHING.
 ### Datetime
 
 - [dateparse](https://github.com/araddon/dateparse): Parse many date strings without knowing format in advance
+
+### Email
+
+- [hermes](https://github.com/matcornic/hermes): generates clean, responsive HTML e-mails for sending transactional mail
 
 ### Error Handling
 
@@ -144,6 +149,7 @@ A go package for Windows 10 toast notifications
 ### Other
 
 - [circuitbreaker](https://github.com/rubyist/circuitbreaker): Circuit Breakers in Go
+- [closestmatch](https://github.com/schollz/closestmatch): fuzzy matching within a set of strings
 - [cri](https://github.com/SKatiyar/cri): Type safe go bindings to interact with chrome remote interface
 - [liche](https://github.com/raviqqe/liche): Fast Link Checker for Markdown and HTML in Go
 - [machineid](https://github.com/denisbrodbeck/machineid): Get the unique machine id of any host
@@ -174,6 +180,7 @@ A go package for Windows 10 toast notifications
 
 ### Regular Expressions
 
+- [commonregex](https://github.com/mingrammer/commonregex): 🍫 A collection of common regular expressions for Go
 - [go-restructure](https://github.com/alexflint/go-restructure): Match regular expressions into struct fields
 
 ### SQL
@@ -209,6 +216,7 @@ A go package for Windows 10 toast notifications
 - [cfmt](https://github.com/alexkohler/cfmt): A tool to wrap Go comments over a certain length to a new line
 - [complete](https://github.com/posener/complete): bash completion written in go + bash completion for go command
 - [DepsCheck](https://github.com/divan/depscheck): Dependency checker for Golang (Go) packages
+- [depth](https://github.com/KyleBanks/depth): Visualize Go Dependency Trees
 - [GAS](https://github.com/GoASTScanner/gas): 
 Inspects source code for security problems by scanning the Go AST
 - [GoAppMonitor](https://github.com/wgliang/goappmonitor): Golang application performance data monitoring
@@ -216,6 +224,7 @@ Inspects source code for security problems by scanning the Go AST
 - [GoQL](https://github.com/fzerorubigd/goql): A query language, over Go code
 - [GoReleaser](https://github.com/goreleaser/goreleaser): Deliver Go binaries as fast and easily as possible
 - [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter): A Golang tool that does static analysis, unit testing, code review and generate code quality report
+- [gophernotes](https://github.com/gopherdata/gophernotes): The Go kernel for Jupyter notebooks and nteract
 - [gops](https://github.com/google/gops): A tool to list and diagnose Go processes currently running on your system
 - [go-callvis](https://github.com/TrueFurby/go-callvis): Visualize call graph of your Go program using dot format
 - [go-tools](https://github.com/dominikh/go-tools): A collection of tools and libraries for working with Go code
@@ -227,6 +236,7 @@ Inspects source code for security problems by scanning the Go AST
 - [deep](https://github.com/go-test/deep): Deep Variable Equality for Humans
 - [pointerstructure](https://github.com/mitchellh/pointerstructure): Go library for addressing and reading/writing a specific value within any Go structure using a string syntax
 - [mergo](https://github.com/imdario/mergo): merging Go structs and maps
+- [validator](https://github.com/go-playground/validator): 💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
 
 ### Visualization
 
@@ -252,6 +262,7 @@ Inspects source code for security problems by scanning the Go AST
 ### Prometheus
 
 - [Prometheus Operator](https://github.com/coreos/prometheus-operator): Creates/configures/manages Prometheus clusters atop Kubernetes
+- [promplot](https://github.com/qvl/promplot): Create plots from Prometheus metrics and send them to you
 - [promviz](https://github.com/nghialv/promviz): Visualize the traffic of your clusters in realtime from Prometheus data
 - [Thanos](https://github.com/improbable-eng/thanos): Highly available Prometheus setup with long term storage capabilities
 
